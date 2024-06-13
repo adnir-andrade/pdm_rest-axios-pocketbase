@@ -112,6 +112,11 @@ export default function Home() {
           Search for a car by Brand
         </Link>
       </View>
+      <View style={styles.linkContainer}>
+        <Link href="/userspace/talk" style={styles.link}>
+          Talk just because
+        </Link>
+      </View>
       <FlatList
         data={cars}
         renderItem={renderItem}
